@@ -26,6 +26,18 @@ h6, .h6, h6 * { font-size: .75em; }
     color: #418d49;
 }
 
+.navbar-inverse {
+  background-color: #12826c !important;
+  border-bottom: 0px;
+}
+.navbar-fixed-top .navbar-text {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  color: #FEFEFE;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #FEFEFE;
+}
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
@@ -47,15 +59,12 @@ h6, .h6, h6 * { font-size: .75em; }
     color: #3E84C2;
 }
 
-.navbar-fixed-top .navbar-text{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 .navbar-fixed-top .navbar-brand{
-    font-family: 'Oswald', cursive;
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Pacifico', cursive, sans-serif;
     font-size: 32px;
     text-transform: capitalize;
-    color: #FEFEFE;
 }
 
 
@@ -244,9 +253,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 section.slider{
-    color: #ffffff;
-    background: #52AD81;
-    padding: 80px 0px 40px 0px;
+    color: #232323;
+    background: #fefefe;
+    padding: 80px 0px 0px 0px;
 }
 
 section.slider h2{
@@ -270,7 +279,6 @@ section.slider .col-md-8{
 
 .inner-page{
     margin-bottom: 30px;
-    padding-bottom: 30px;
 }
 
 img{
@@ -543,7 +551,7 @@ footer *{
     color: #ffffff;
 }
 #footer .logo{
-    font-family: 'Oswald', cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 20px;
     text-transform: capitalize;
     color: #FEFEFE;
@@ -571,12 +579,23 @@ footer *{
     padding: 10px;
     height: 50px;
 }
-#invite_btn{
-    padding: 10px;
+.invite_btn{
+    padding: 10px 30px;
     font-weight: bold;
     font-size: 32px;
-    width: 100%;
+    border-radius: 500px;
 }
-#benifits{
-    margin-top: 52px;
+#more-details{
+    padding-top: 20px;
+}
+#benefits h2{
+    margin-top: 0px;
+}
+.descriptive{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product-img-wrap{
+    text-align: center;
 }

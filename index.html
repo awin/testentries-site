@@ -12,7 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Oswald|Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico|Lato' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
@@ -32,6 +32,10 @@
             <a class="navbar-brand" href="#">TestEntries</a>
             <a class="navbar-text" href="#">Easily track testcases, linking them to requirements in Pivotal Tracker.</a>
         </div>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://app.testentries.com/users/login">Login</a></li>
+
+      </ul>
     </div>
 </div>
 
@@ -42,30 +46,24 @@
         <div class="inner-page">
             <h2 class="page-headline large text-center">Manage testcases, for stories in Pivotal Tracker</h2>
 
-            <p class="text-center">Track your application's testcases, for userstories maintained in PivotalTracker.<br />With tight integration between TestEntries and PivotalTracker, test management becomes super easy!</p>
+            <p class="text-center">Integration with Pivotal Tracker, that makes test case management super easy!</p>
+            <br />
+            <p class="text-center"><a href="#" class="btn btn-danger invite_btn">Get Invited</a></p>
         </div>
-        <div class="row inner-page">
-            <div class="col-md-8 col-md-push-4 lazy-container loaded">
+        <hr/>
+
+        <div class="row inner-page" id="more-details">
+
+            <div class="col-md-12">
                 <!--<img data-original="images/mockup.png" src="images/mockup.png" alt="Looks great on every device"-->
                 <!--class="lazy">-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <form>
-                          <div class="form-group">
-                            <input type="email" class="form-control" id="invite_email" placeholder="Your Email Address">
-                          </div>
-                          <button type="submit" class="btn btn-danger btn-xlg" id="invite_btn">Invite Me</button>
-                        </form>
-
-                         
-                    </div>
-                   
+                <div class="descriptive">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen as featured books ever since the 1500s.</p>
                 </div>
-                <div id="benifits">
-                <h2>Benifits</h2>
+                <div id="benefits">
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="feature-box">
                             <div class="feature-box-icon">
                                 <i class="icon-group"></i>
@@ -87,9 +85,9 @@
                             </div>
                         </div>
 
-                       
+
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="feature-box">
                             <div class="feature-box-icon">
                                 <i class="icon-film"></i>
@@ -113,14 +111,43 @@
 
 
                     </div>
+
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-heart"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">Pulse</h4>
+
+                                <p class="tall">Lorem ipsum dolor sit amet, consectetur adip. Wow, awesome?</p>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="feature-box-icon">
+                                <i class="icon-list small user"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="shorter">List</h4>
+
+                                <p class="tall">This awesome feature will help you a lot to lazily snoop around!</p>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
+
                 </div>
 
             </div>
-            <div class="col-md-4 col-md-pull-8">
-               <img src="images/product_feature1.png" alt="product-teaser"/>
 
-            </div>
+        </div>
+        <div>
+                <div class="product-img-wrap">
+                    <img src="images/product_screenshot.png" alt="testentries-teaser" id="teaser-img"/>
+                </div>
+
         </div>
     </div>
 </section>
@@ -135,7 +162,7 @@
                         TestEntries
                     </a>
                 </div>
-                <div class="col-md-6"> 
+                <div class="col-md-6">
                 </div>
                 <div class="col-md-4 pull-right">
                     <div class="pull-right">
